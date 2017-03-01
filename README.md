@@ -1,6 +1,6 @@
 # GUESS THE NUMBER
-==================
-
+------------------
+ 
 
 Compilation
 -----------
@@ -9,6 +9,7 @@ Compiled with: gcc
 Compiler flag: -o  
 Example: gcc guess-the-number -o Guess.exe  
 
+  
 
 Usage
 -----
