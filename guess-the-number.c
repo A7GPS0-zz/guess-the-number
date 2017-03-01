@@ -1,16 +1,3 @@
-/*
-	author:	A7GPS0
-	date:	28.02.2017
-	
-	@param[in]
-	random start value to calculate the random number to guess
-	range of numbers where your number can be. From 0 to "your Range"
-	
-	@param[out]
-	number of tries you needed to guess the right number
-	guess was to high/small/right
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 
