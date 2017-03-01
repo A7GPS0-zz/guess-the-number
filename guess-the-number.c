@@ -16,10 +16,10 @@
 
 int main(void)
 {
-	int inpRndSeed; 			// random start value
-	int inpRange = 0; 			// between 0 -> "range" you have to guess
-	int guessTheNumber = 0; 	// the number to guess
-	int userInput = 0;			// input of numbers the user
+	int inpRndSeed 	     = 0; 	// random start value
+	int inpRange 	     = 0; 	// between 0 -> "range" you have to guess
+	int guessTheNumber   = 0; 	// the number to guess
+	int userInput 	     = 0;	// input of numbers the user
 	int triesUserGuessed = 0; 	// tries the user tried to guess the correct number
 	
 	printf("Give a random number: "); // give a starting value to calculate the random number
@@ -47,7 +47,8 @@ int main(void)
 			printf("Your guess was to small!");
 		else
 		{
-			printf("\nYour guess was right!\nYou needed %d tries",++triesUserGuessed); // increment the "tries", so it displays the correct amout of tries
+			printf("\nYour guess was right!\nYou needed %d tries",++triesUserGuessed);
+			// increment the "tries" befor the output. The last try will count too.
 			return 0;
 		}
 		
