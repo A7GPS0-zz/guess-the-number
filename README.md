@@ -1,13 +1,17 @@
 # GUESS THE NUMBER
-
-Compiled with: gcc
-
-Compiler flag: -o
-
-Example: gcc guess-the-number -o Guess.exe
+==================
 
 
+Compilation
+-----------
 
-Windows console based game
+Compiled with: gcc  
+Compiler flag: -o  
+Example: gcc guess-the-number -o Guess.exe  
 
-You have to guess a random number which will be created on a seed you can enter
+
+Usage
+-----
+
+Windows console based game  
+You have to guess a random number which will be created on a seed you can enter  
