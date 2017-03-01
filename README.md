@@ -1,8 +1,11 @@
 # GUESS THE NUMBER
 
 Compiled with: gcc
+
 Compiler flag: -o
+
 Example: gcc guess-the-number -o Guess.exe
+
 
 
 Windows console based game
